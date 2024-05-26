@@ -13,12 +13,13 @@ import com.example.chasechallenge.ui.viewmodel.WeatherViewModel
 @Composable
 fun WeatherApp() {
     val navController = rememberNavController()
+    val viewModel =  hiltViewModel<WeatherViewModel>()
 
     NavHost(navController = navController, startDestination = Screen.WeatherSearchScreen.route,
         modifier = Modifier.background(Color.DarkGray)
     ) {
         composable(route = Screen.WeatherSearchScreen.route) {
-            WeatherSearchScreen()
+            WeatherSearchScreen(viewModel)
         }
     }
 }

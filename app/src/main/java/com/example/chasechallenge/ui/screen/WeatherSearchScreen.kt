@@ -23,7 +23,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.edit
-import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import com.example.chasechallenge.data.model.*
 import com.example.chasechallenge.ui.CircularProgressBar
@@ -32,9 +31,8 @@ import com.example.chasechallenge.ui.viewmodel.WeatherViewModel
 import com.example.chasechallenge.utils.Utils
 
 @Composable
-fun WeatherSearchScreen() {
+fun WeatherSearchScreen(viewModel: WeatherViewModel) {
 
-    val viewModel =  hiltViewModel<WeatherViewModel>()
     val weatherData = viewModel.weatherData.observeAsState(initial = null)
     val weatherForecast = viewModel.hourlyWeather.observeAsState(initial = null)
     val isLoading = viewModel.isLoading.observeAsState(initial = false)
