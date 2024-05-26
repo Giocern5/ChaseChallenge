@@ -19,7 +19,7 @@ Clone the app and test on device of choice I used a Pixel 6 Pro for testing. Cli
   <li>Jetpack Compose</li>
   <li>Hilt</li>
   <li>Some Java</li>
-  <li>TODO: Unit test Espresso or Mockito </li>
+  <li>Junit</li>
 
 </ul>
 
