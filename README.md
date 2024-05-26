@@ -1,4 +1,4 @@
-# ChaseChallenge
+# Chase Challenge
 <h1>How to run: </h1>
 Clone the app and test on device of chose. I used a Pixel 6 Pro for testing. Click play button inorder to install and run the app.
 
