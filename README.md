@@ -28,8 +28,8 @@ Users can search for a city and it will fetch current weather details and foreca
 
 <h1>Sample Gifs:</h1>
 <ol>
-  <li>First gif is on intial app create where we ask for user location </li>
-  <li>Middle gif is loading user locatin on app launch</li>
+  <li>First gif is on initial app create where we ask for user location </li>
+  <li>Middle gif is loading user location on app launch</li>
   <li>Last video is searching for a city</li>
 </ol>
 <p float="left">
@@ -60,7 +60,7 @@ WeatherSearchScreen: Initial screen displaying information on current location (
 
 <h1>Built Using</h1>
 <li>Retrofit: Used to easily and safely make HTTP requests to RESTFUL Apis </li>
-<li>Hilt: Used for dependency injection to help moduralize the code for testability and readability</li>
+<li>Hilt: Used for dependency injection to help modularize the code for testability and readability</li>
 <li>Coroutines: Useed for its ansynchronous porgamming</li>
 <li>Jetpack Compose: Used per project requirements</li>
 <li>Jetpack Navigation: Used to simplify navigation</li>
